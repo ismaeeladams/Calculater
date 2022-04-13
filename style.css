@@ -1,0 +1,40 @@
+section.output {
+  border-radius: 25%;
+  border: solid;
+  height: 200px;
+  background-color: white;
+  margin: 5px;
+}
+section#input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button {
+  aspect-ratio: 1;
+  width: 22%;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+#input > button {
+  padding: 25px;
+}
+.calculater {
+  max-width: 600px;
+  margin-inline: auto;
+  border: 5px solid white;
+  background-color: blue;
+}
+.function {
+  background-color: blueviolet;
+}
+.clr {
+  width: 525px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
