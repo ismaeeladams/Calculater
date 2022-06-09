@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
   </head>
-  <body style="background-color: black">
+  <body style="background-color: rgb(7, 7, 7)">
     <section class="calculater">
-      <section class="output"></section>
+      <section id="output" class="output"></section>
       <section id="input">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="function">x</button><button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="function">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="function">+</button>
-        <button class="function">=</button>
-        <button>0</button>
-        <button class="function">.</button>
-        <button class="function">/</button>
-        <button class="clr">clr</button>
+        <button id="new" onclick="buildSum('7')">7</button>
+        <button id="new" onclick="buildSum('8')">8</button>
+        <button id="new" onclick="buildSum('9')">9</button>
+        <button id="new" onclick="buildSum('*')" class="function">*</button>
+        <button id="new" onclick="buildSum('4')">4</button>
+        <button id="new" onclick="buildSum('5')">5</button>
+        <button id="new" onclick="buildSum('6')">6</button>
+        <button id="new" onclick="buildSum('-')" class="function">-</button>
+        <button id="new" onclick="buildSum('1')">1</button>
+        <button id="new" onclick="buildSum('2')">2</button>
+        <button id="new" onclick="buildSum('3')">3</button>
+        <button id="new" onclick="buildSum('+')" class="function">+</button>
+        <button id="new" onclick="calculate()" class="function">=</button>
+        <button id="new" onclick="buildSum('0')">0</button>
+        <button id="new" onclick="buildSum('.')" class="function">.</button>
+        <button id="new" onclick="buildSum('/')" class="function">/</button>
+        <button id="new" onclick="reset()" class="clr">clr</button>
       </section>
     </section>
+    <button id="b" onclick="red()">R</button>
+    <button id="b" onclick="green()">G</button>
+    <button id="b" onclick="blue()">B</button>
   </body>
 </html>

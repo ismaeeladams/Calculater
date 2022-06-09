@@ -1,9 +1,14 @@
-section.output {
+section#output {
   border-radius: 25%;
   border: solid;
-  height: 200px;
+  height: 54px;
   background-color: white;
   margin: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 40px;
+  padding: 30px;
 }
 section#input {
   display: flex;
@@ -19,11 +24,20 @@ button {
   border-radius: 50%;
   background-color: aquamarine;
 }
+#b-r {
+  color: rgb(red, 0, 0);
+}
+#b-g {
+  color: rgb(0, green, 0);
+}
+#b-b {
+  color: rgb(0, 0, blue);
+}
 #input > button {
   padding: 25px;
 }
 .calculater {
-  max-width: 600px;
+  max-width: 520px;
   margin-inline: auto;
   border: 5px solid white;
   background-color: blue;
